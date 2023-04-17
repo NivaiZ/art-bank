@@ -1,0 +1,44 @@
+.client__hover {
+  filter: opacity(0.5);
+  text-decoration: none;
+  color: @basic-gray;
+}
+
+.client__hover.client__hover--js {
+  filter: opacity(1);
+}
+
+.client__list {
+  display: none;
+}
+
+.client__list.client__list--js {
+  display: block;
+  transition: 0.3s ease;
+  filter: opacity(1);
+}
+
+.client {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid @basic-grey;
+  width: 30%;
+  padding: 10px;
+  overflow: auto;
+}
+
+.card__wrapper {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.client__button {
+  border: 1px solid @basic-orange;
+  cursor: pointer;
+  background-color: transparent;
+  font-weight: 700;
+  padding: 5px;
+  width: 100px;
+  margin: 0 auto;
+}
