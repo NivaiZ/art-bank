@@ -1,6 +1,6 @@
-## Тестовое задание для Цифрового элемента
+## Тестовое задание для Арт-банка
 
-[Демо проекта](https://nivaiz.github.io/proccesing24/build/index.html)
+[Демо проекта](https://nivaiz.github.io/art-bank/build/index.html)
 
 Вёрстка: [Илья Галятдинов](https://github.com/NivaiZ/)
 
